@@ -30,5 +30,5 @@ const server = http.createServer((req, res) => {
 // Listen on 0.0.0.0 to allow external access
 const PORT = 3000;
 server.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
