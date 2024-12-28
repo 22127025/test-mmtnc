@@ -1,7 +1,7 @@
 FROM node:latest
 WORKDIR /usr/app
 COPY package.json ./
-RUN nmp install
+RUN npm install
 COPY . .
 EXPOSE 3000
 CMD ["node", "server.js"]
